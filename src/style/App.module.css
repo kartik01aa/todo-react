@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+.app{
+     background-color: rgb(164, 131, 255);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100vh;
+     font-family: 'Neucha';
+}
+
+/* @media screen and (max-width: 800px){
+     
+} */
