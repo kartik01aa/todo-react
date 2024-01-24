@@ -1,0 +1,31 @@
+.singletodo_container{
+     background-image: url("https://st5.depositphotos.com/35914836/63547/i/1600/depositphotos_635479512-stock-photo-brown-wooden-wall-texture-background.jpg") ;
+     display: flex;
+     font-size: 1.3rem;
+     justify-content: space-between;
+     width: 30%;
+     height: 2rem;
+     margin-bottom: 1rem;
+     padding: 1rem;
+     border-radius: 1rem;
+     color: white;
+     align-items: center;
+}
+.singletodo_icons{
+     width: 25%;
+     display: flex;
+     justify-content: space-between;
+}
+.strike{
+     text-decoration: line-through;
+}
+.edit_input{
+     padding: .5rem;
+     outline: none;
+}
+
+@media screen and (max-width: 900px){
+     .singletodo_container{
+          width: 80%;  
+     }
+}
